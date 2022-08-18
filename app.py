@@ -13,4 +13,9 @@ def add(value1,value2):
 
 def subtr(value1,value2):
     answer=value1-value2
-    return answer    
+    return answer
+
+if thirdValue in "add":
+    print(add(firstValue,secondValue))
+if thirdValue in "subtract":
+    print(subtr(firstValue,secondValue))
